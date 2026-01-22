@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <script>
+    const savedTheme = localStorage.getItem("theme") || "light";
+    document.documentElement.setAttribute("data-theme", savedTheme);
+  </script>
+
+  <title>About | DevPro</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="logo">DevPro</div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="features.html">Features</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><button id="themeToggle" class="theme-btn">🌙</button></li>
+  </ul>
+</nav>
+
+<section class="section hero">
+  <h1>About Us</h1>
+  <p>Learn more about DevPro</p>
+</section>
+
+<section class="section">
+  <h2>Our Mission</h2>
+  <p>We build modern and accessible web experiences.</p>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
