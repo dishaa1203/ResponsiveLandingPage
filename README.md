@@ -11,8 +11,4 @@ A modern, responsive website featuring:
 ## Tech Stack
 HTML5, CSS3, JavaScript
 
-## Live Demo
-(Add Netlify / GitHub Pages link)
-
-## Folder Structure
-See project root
+#
